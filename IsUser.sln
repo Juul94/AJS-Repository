@@ -3,26 +3,46 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "IsUser", "http://localhost:59422", "{8306C18D-CCB3-48E5-806B-DF613AC27DB0}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Cart", "http://localhost:27293", "{EBC0E850-E065-4831-8968-828503A60AED}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_59422"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\IsUser\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59422\"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_27293"
+		Debug.AspNetCompiler.PhysicalPath = "Cart\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_27293\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_59422"
-		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\IsUser\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59422\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_27293"
+		Release.AspNetCompiler.PhysicalPath = "Cart\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_27293\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\WebSites\IsUser\"
-		DefaultWebSiteLanguage = "Visual C#"
+		SlnRelativePath = "Cart\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "User(1)", "http://localhost:27294", "{4E4B3491-1C4C-4FA3-ABC1-0DECF181D824}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_27294"
+		Debug.AspNetCompiler.PhysicalPath = "User\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_27294\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_27294"
+		Release.AspNetCompiler.PhysicalPath = "User\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_27294\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "User\"
 	EndProjectSection
 EndProject
 Global
@@ -30,8 +50,10 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8306C18D-CCB3-48E5-806B-DF613AC27DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8306C18D-CCB3-48E5-806B-DF613AC27DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC0E850-E065-4831-8968-828503A60AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC0E850-E065-4831-8968-828503A60AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4B3491-1C4C-4FA3-ABC1-0DECF181D824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4B3491-1C4C-4FA3-ABC1-0DECF181D824}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
