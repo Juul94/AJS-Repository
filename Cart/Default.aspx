@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
+<%@ Register src="CartView.ascx" tagname="CartView" tagprefix="uc1" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -39,9 +41,14 @@
             </tr>
         </table>
 
-        <asp:GridView ID="GridView_Cart" runat="server"></asp:GridView>
-
     </div>
+
+        <h2>Indkøbsliste</h2>
+
+        <uc1:CartView ID="CartView1" runat="server" />
+
+        <br />
+
     </form>
 </body>
 </html>

@@ -14,7 +14,6 @@ namespace Excep
         private string name;
         private decimal price;
         private int amount;
-        private decimal totalprice;
 
         #endregion
 
@@ -24,7 +23,11 @@ namespace Excep
         public string Name { get { return this.name; } set { this.name = value; } }
         public decimal Price { get { return this.price; } set { this.price = value; } }
         public int Amount { get { return this.amount; } set { this.amount = value; } }
-        public decimal Totalprice { get { return this.totalprice; } set { this.totalprice = value; } }
+        public decimal Totalprice { get { return this.price * this.amount; } }
+        public decimal Vat { get { return this.price * this.amount * (decimal) 0.25; } }
+        public decimal InklMoms { get { return this.Totalprice + this.Vat; } }
+
+        // public string image { get { return this.image; } }
 
         #endregion
 
@@ -45,7 +48,7 @@ namespace Excep
             this.name = name;
             this.price = price;
             this.amount = amount;
-            this.totalprice = this.price * this.amount;
+            //this.image = image;
         }
 
         #endregion
