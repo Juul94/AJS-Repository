@@ -109,7 +109,6 @@ namespace Excep
                 this.items = new List<CartProduct>();
             }
 
-
          #endregion
     }
 }
